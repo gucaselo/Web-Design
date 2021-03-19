@@ -43,9 +43,9 @@ $container-max-widths: (
   opacity: 1;
 }
 
-.img1 {
+/*.img1 {
   border: 5px cornflowerblue;
-}
+}*/
 
 .images :hover .img1 {
   opacity: 0.3;
