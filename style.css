@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 body {
-  /*background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;*/
-  background: url('Images/weather.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background-image: url("Images/weather.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*$grid-breakpoints: (
