@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body {
+  /*background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;*/
+  background: url('Images/weather.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/*$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);*/
+
+$container-max-widths: (
+  sm: 480px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+.card-size-left {
+  /*position: relative;
+  left: 5%
+  width: 570px;*/
+  height: 650px;
+  padding: 8px 16px
+
+}
+
+.padding-preview {
+  padding-bottom: 40px;
+
+}
+
+/* Reduce opacity when user hover over the picture*/
+.img1, .img2, .img3, .img4 {
+  opacity: 1;
+}
+
+.img1 {
+  border: 5px cornflowerblue;
+}
+
+.images :hover .img1 {
+  opacity: 0.3;
+}
+
+.images :hover .img2 {
+  opacity: 0.3;
+}
+
+.images :hover .img3 {
+  opacity: 0.3;
+}
+
+.images :hover .img4 {
+  opacity: 0.3;
+}
+
+.padding-preview-c {
+  padding-bottom: 40px;
+
+}
+
+/* Font and */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+.navbar {
+  padding: .8rem;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.text-size-right h1 {
+  font-size: 230%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.text-size-left h1 {
+  font-size: 200%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.sub-text h4 {
+  font-size: 150%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.padding {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
+hr.top-secondary {
+  border-top: 1px solid lightgray;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  /*padding-top: 1rem;
+  padding-bottom: 2rem;*/
+}
+
+hr.top-100 {
+  border-top: 1px solid lightgray;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  /*padding-top: 1rem;
+  padding-bottom: 2rem;*/
+}
+
+/*---Media Queries --*/
+@media (max-width: 1200px) {
+.text-size-right h1 {
+  font-size: 200%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+.text-size-left h1 {
+  font-size: 160%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.sub-text h4 {
+  font-size: 130%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+}
+
+
+@media (max-width: 992px) {
+/*.card-size-right {
+  width: 100%;
+}*/
+
+
+
+#preview-card {
+  display: none;
+}
+
+.text-size-right h1 {
+  font-size: 190%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.text-size-left h1 {
+  font-size: 130%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.sub-text h4 {
+  font-size: 100%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+@media (max-width: 768px) {
+  /*#preview-card {
+  display: none;
+}*/
+
+.images img {
+  width: 50%;
+  height: 50%;
+}
+
+.text-size-right h1 {
+  font-size: 175%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.text-size-left h1 {
+  font-size: 100%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.sub-text h4 {
+  font-size: 80%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.padding-preview-c {
+  padding-bottom: 5px;
+}
+
+}
+@media (max-width: 576px) {
+#preview-card {
+  display: none;
+}
+
+.text-size-right h1 {
+  font-size: 150%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.sub-text h4 {
+  font-size: 150%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.sub-text h4 {
+  font-size: 60%;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+
+.padding-preview-c {
+  padding-bottom: 1px;
+}
+
+}
