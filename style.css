@@ -126,30 +126,28 @@ hr.top-100 {
 
 /*Table properties */
 
-/*.scrollable-table {
-  overflow-x: auto;
-}
-
-.table-fixed tbody td,
-.table-fixed thead>tr>th {
-    float: left;
-    
-}*/
-
-
 tbody tr:hover {
   background: cornflowerblue;
 }
 
-.table-fixed tbody {
+/*relative position for the table needs to be set for the sticky position in th to be used */
+table {
+  position: relative
+}
+
+/*sticky for the header cannot be applied to theader but it can to th*/
+th {
+  position: sticky;
+  top: 0;
+}
+
+.table-fixed {
   display: block;
   height: 400px;
   overflow-y: auto;
 }
 
-.table-fixed tr, .table-fixed thead{
-  display: block;
-}
+
 
 /*---Media Queries --*/
 @media (max-width: 1200px) {
