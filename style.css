@@ -124,6 +124,33 @@ hr.top-100 {
   padding-bottom: 2rem;*/
 }
 
+/*Table properties */
+
+/*.scrollable-table {
+  overflow-x: auto;
+}
+
+.table-fixed tbody td,
+.table-fixed thead>tr>th {
+    float: left;
+    
+}*/
+
+
+tbody tr:hover {
+  background: cornflowerblue;
+}
+
+.table-fixed tbody {
+  display: block;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.table-fixed tr, .table-fixed thead{
+  display: block;
+}
+
 /*---Media Queries --*/
 @media (max-width: 1200px) {
 .text-size-right h1 {
@@ -142,6 +169,7 @@ hr.top-100 {
   font-weight: bold;
   color:cornflowerblue;
 }
+
 
 }
 
@@ -173,6 +201,8 @@ hr.top-100 {
   font-size: 100%;
   font-weight: bold;
   color:cornflowerblue;
+}
+
 }
 
 @media (max-width: 768px) {
