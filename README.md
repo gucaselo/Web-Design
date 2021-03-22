@@ -8,4 +8,4 @@ The following scatter plots were used in the creation of this site:
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-You can access this website by clicking this link: https://gucaselo.github.io/Web-Design-Challenge/index.html
+You can access this website by clicking this link: https://gucaselo.github.io/Web-Design-Challenge/
